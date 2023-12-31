@@ -3,6 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
+import eStore from '@/public/eStore.webp'
+import ipAddress from '@/public/ipAddressTracker.webp'
+import githubProfile from '@/public/githubProfile.webp'
+import restaurantFindr from '@/public/restaurantFindr.webp'
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -35,53 +39,61 @@ export const links = [
 
 
 export const experiencesData = [
+
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    title: "Front-End Developer Intern",
+    location: "KodeCamp Team",
+    description: `Consumed existing APIs for practice using Axios and fetch API, APIs like the fake store API, and world countries API. Worked with quite a number of React libraries like react-router, react-pagination, react-query and more.`,
+    icon: React.createElement(CgWorkAlt),
+    date: "March 2022 - July 2022",
   },
+  {
+    title: "Front-End Developer Intern",
+    location: "Zuri Team",
+    description: "I worked hand-in-hand with the Backend and the UI team to build a platform thatsplits, CSV and JSON files into chunks as a final project.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2022 - August 2022",
+  },
+
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "GathPays",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Currently working with a frontend team of 3 and backend engineers on a fintechapp that is set to launch in the first quarter of 2024.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "December 2022 - June 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Restaurant Finder",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Locate the nearest restaurant to you.",
+    tags: ["React", "Next.js", "NextAuth", "Tailwind", "Google Map API"],
+    imageUrl: restaurantFindr,
+    projectURL: "https://restaurantfindr.vercel.app/"
+  },
+  {
+    title: "Hostel Manager",
+    description: "Locate the nearest restaurant to you.",
+    tags: ["React", "Next.js", "Tailwind", "Google Map API"],
     imageUrl: corpcommentImg,
+    projectURL: "https://hostel-manager.vercel.app/"
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "Github Profiles",
+    description: "Github Profile",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "React Query"],
+    imageUrl: githubProfile,
+    projectURL: "https://githubprofile-me.vercel.app/"
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "IP Address Tracker",
+    description: "frontendmentor's challenge to build an IP Addrerss Tracker using two APIs you can get the location of a particular IP and also the ISP",
+    tags: ["React", "Next.js", "Tailwind", "Framer"],
+    imageUrl: ipAddress,
+    projectURL: "https://githubprofile-me.vercel.app/"
   },
 ] as const;
 

@@ -18,32 +18,22 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      <p className=" mb-3 ">
+        <span className="font-medium"> Front-end Engineer</span> with 1+ years of professional experience and a proven ability to adapt to the conditions of <span className="italic">both self-starting</span>  and <span className="italic">collaborative environments,</span>  while staying focused on producing high-quality results that are both applicable and reliable.
       </p>
-
+      <p className="mb-3">Passionate about creating innovative solutions that combine cutting-edge technologies with intuitive user interfaces. Firm believer in the power of well-designed and <span className=" underline ">well-implemented applications</span>  to enhance user satisfaction and drive business success.
+      </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        Eager to obtain a challenging position at a company like yours, with a progressive and problem-solving ideology, that will put my expertise into play and expand my <span className="font-medium">knowledge base.</span>
+
+
       </p>
     </motion.section>
   );
 }
+
+/*
+Front-end Engineer with 4+ years of professional experience and a proven ability to adapt to the conditions of both self-starting and collaborative environments, while staying focused on producing high-quality results that are both applicable and reliable.
+Passionate about creating innovative solutions that combine cutting-edge technologies with intuitive user interfaces. Firm believer in the power of well-designed and well-implemented applications to enhance user satisfaction and drive business success.
+Eager to obtain a challenging position at a company like yours, with a progressive and problem-solving ideology, that will put my expertise into play and expand my knowledge base.
+*/
