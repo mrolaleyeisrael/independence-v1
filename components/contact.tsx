@@ -12,16 +12,16 @@ const Contact = () => {
 
   const form = useRef<HTMLFormElement>(null)
   
-  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  // const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
 
-    emailjs.sendForm('bQto4IODh6jK7Nr9t', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
-  };
+  //   emailjs.sendForm('bQto4IODh6jK7Nr9t', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+  //     .then((result) => {
+  //       console.log(result.text);
+  //     }, (error) => {
+  //       console.log(error.text);
+  //     });
+  // };
 
   return (
     <motion.section
@@ -51,7 +51,9 @@ const Contact = () => {
       </p>
 
 
-      <form ref={form} onSubmit={sendEmail} className="mt-10 flex flex-col dark:text-black">
+      <form
+        /*ref={form} onSubmit={sendEmail} */
+        className="mt-10 flex flex-col dark:text-black">
         <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="senderEmail"
