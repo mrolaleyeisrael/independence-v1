@@ -79,7 +79,7 @@ export const projectsData = [
     description: "Locate the nearest restaurant to you.",
     tags: ["React", "Next.js", "Tailwind", "Google Map API"],
     imageUrl: corpcommentImg,
-    projectURL: "https://staging-hostel.netlify.app/"
+    projectURL: "https://staging-hostel.netlify.app/dashboard"
   },
   {
     title: "Github Profiles",
