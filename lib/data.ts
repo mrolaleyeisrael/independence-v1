@@ -93,7 +93,7 @@ export const projectsData = [
     description: "frontendmentor's challenge to build an IP Addrerss Tracker using two APIs you can get the location of a particular IP and also the ISP",
     tags: ["React", "Next.js", "Tailwind", "Framer"],
     imageUrl: ipAddress,
-    projectURL: "https://githubprofile-me.vercel.app/"
+    projectURL: "https://ip-address-trackr.vercel.app/"
   },
 ] as const;
 
